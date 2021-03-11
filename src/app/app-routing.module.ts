@@ -7,6 +7,8 @@ import { CheckOutComponent } from './check-out/check-out.component';
 import { OrderSuccessComponent } from './order-success/order-success.component';
 import { LoginComponent } from './login/login.component';
 import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
+import { MyOrdersComponent } from './my-orders/my-orders.component';
+import { AdminProductsComponent } from './admin/admin-products/admin-products.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -15,8 +17,9 @@ const routes: Routes = [
   {path:'check-out',component:CheckOutComponent},
   {path:'order-success',component:OrderSuccessComponent},
   {path:'login',component:LoginComponent},
-  {path:'admin/products',component:AdminOrdersComponent},
-  {path:'admin/order',component:AdminOrdersComponent}
+  {path:'admin/products',component:AdminProductsComponent},
+  {path:'admin/orders',component:AdminOrdersComponent},
+  {path:'my/orders',component:MyOrdersComponent}
 
 ];
 
